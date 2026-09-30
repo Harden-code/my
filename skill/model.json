@@ -1,0 +1,26 @@
+{
+  "providers": {
+    "my_open_ai": {
+      "baseUrl": "https://api.chatanywhere.tech/v1",
+      "api": "openai-responses",
+      "apiKey": "$OPENAI_API_KEY",
+      "compat": {
+        "supportsUsageInStreaming": true
+      },
+      "models": [
+        {
+          "id": "gpt-5.4-mini",
+          "name": "gpt-5.4-mini",
+          "input": ["text", "image"],
+          "contextWindow": 262144,
+          "reasoning": true
+        },
+        {
+          "id": "gpt-6-astra",
+          "name": "gpt-6-astra",
+          "reasoning": false
+        }
+      ]
+    }
+  }
+}

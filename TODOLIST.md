@@ -46,7 +46,8 @@
 
 #### pandas,numpy,matplotlib,sympy,seaborn,sklearn
 <p>
-pandas复习,其余都要看
+
+pandas 整合，索引视图
 </p>
 
 > 注意力没那么集中看,这部分主要实操可以多动手.对于相关框架4天输出一份ipynb
